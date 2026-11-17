@@ -17,5 +17,5 @@ export function buatLinkWhatsApp(pesanan, pelanggan, total) {
   });
   teks += `\nTotal: ${formatRupiah(total)}\n\n`;
   teks += "Mohon konfirmasi pesanan saya. Terima kasih 🙏";
-  return `https://wa.me/${NOMOR_WA}?text=${encodeURIComponent(teks)}`;
+  return `https://wa.me/${+6282174372137}?text=${encodeURIComponent(teks)}`;
 }
