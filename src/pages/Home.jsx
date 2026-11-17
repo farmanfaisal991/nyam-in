@@ -21,7 +21,7 @@ function Home({ onAdd, page, setPage, cartCount }) {
       <section id="produk" className="max-w-6xl mx-auto px-4 py-12">
         <h2 className="text-2xl md:text-3xl font-bold text-[#6b4226] text-center mb-2">Produk Kami</h2>
         <p className="text-center text-[#8a6a4f] mb-8">Pilih favoritmu, kami panggang setelah kamu pesan.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 zoom-110">
           {products.map((p) => (
             <ProductCard key={p.id} product={p} onAdd={onAdd} onDetail={setDetail} />
           ))}
