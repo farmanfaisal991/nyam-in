@@ -5,7 +5,7 @@ export const products = [
     deskripsi:
       "Gigitan pertama langsung jatuh cinta! Perpaduan cookies lembut dengan lelehan cokelat yang melimpah, siap menemani hari-harimu jadi lebih manis.",
     harga: 15000,
-    gambar: "./src/assets/original.jpg",
+    gambar: "./public/original.jpg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const products = [
     deskripsi:
       "Pecinta cokelat wajib coba! Rasa cokelat yang kaya, tekstur chewy, dan potongan cokelat di setiap gigitan. Sekali coba, dijamin ingin lagi!",
     harga: 17000,
-    gambar: "./src/assets/double-chocho.jpg",
+    gambar: "./public/double-chocho.jpg",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const products = [
       "Cantik tampilannya, istimewa rasanya! Red velvet lembut dengan perpaduan white chocolate yang manis dan creamy. Cocok untuk menemani waktu santaimu.",
     harga: 25000,
     gambar:
-      "./src/assets/red-velvet.jpg",
+      "./public/red-velvet.jpg",
   },
   {
     id: 4,
@@ -31,6 +31,6 @@ export const products = [
       "Saatnya manjakan diri dengan rasa matcha yang khas! Aroma teh hijau yang menggoda berpadu dengan manisnya white chocolate dalam satu cookies yang istimewa.",
     harga: 28000,
     gambar:
-      "./src/assets/macha.jpg",
+      "./public/macha.jpg",
   },
 ];
