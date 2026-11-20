@@ -2,7 +2,7 @@ function Hero({ onBelanja }) {
   return (
     <section className="max-w-6xl mx-auto px-4 py-12 md:py-20 grid md:grid-cols-2 gap-8 items-center">
       <div>
-        <p className="text-[#b8865b] font-semibold mb-2">Freshly baked setiap hari 🍪</p>
+        <p className="text-[#b8865b] font-semibold mb-2">Yang buat pacal aku 🍪</p>
         <h1 className="text-4xl md:text-5xl font-bold text-[#6b4226] leading-tight mb-4">
           Nikmati Soft Cookies & Brownies Favoritmu
         </h1>

@@ -43,34 +43,14 @@ function Home({ onAdd, page, setPage, cartCount }) {
             Tentang Nyam.in
           </h2>
           <p className="text-[#8a6a4f] leading-relaxed">
-            Cerita di Balik Nyam.in Berawal dari kecintaan sederhana terhadap
-            camilan rumahan, Nyam.in hadir dengan satu tujuan: menghadirkan
-            kebahagiaan kecil melalui setiap gigitan yang penuh rasa. Bagi kami,
-            cookies bukan sekadar camilan untuk mengisi waktu luang. Ada
-            kehangatan, kenyamanan, dan kebahagiaan sederhana yang bisa
-            dirasakan dari aroma cookies yang baru keluar dari oven, teksturnya
-            yang menggoda, hingga lelehan cokelat yang membuat siapa pun sulit
-            menolak. Itulah alasan kami menghadirkan Nyam.in. Setiap produk
-            Nyam.in dibuat dengan sepenuh hati menggunakan bahan-bahan pilihan
-            dan dipersiapkan secara fresh setiap hari. Kami percaya bahwa
-            kualitas rasa dimulai dari bahan yang baik, proses pembuatan yang
-            penuh perhatian, dan tentunya cinta dalam setiap adonannya. Tanpa
-            pengawet, tanpa rasa yang dibuat-buat, hanya kelezatan cookies yang
-            ingin kami bagikan kepada setiap pelanggan. Dari dapur sederhana di
-            Medan, kami terus berusaha menghadirkan berbagai pilihan cookies
-            dengan karakter rasa yang istimewa. Mulai dari sensasi cokelat yang
-            melimpah, tekstur lembut dan chewy, hingga perpaduan rasa manis yang
-            pas di setiap gigitan. Semuanya kami ciptakan agar setiap momen
-            terasa lebih spesial. Kami ingin Nyam.in menjadi bagian dari cerita
-            kecil dalam keseharianmu. Menjadi teman saat menikmati secangkir
-            kopi, camilan saat berkumpul bersama orang tersayang, hadiah manis
-            untuk seseorang yang spesial, atau sekadar teman terbaik ketika kamu
-            ingin memanjakan diri sendiri. Karena bagi kami, kebahagiaan tidak
-            selalu harus datang dari sesuatu yang besar. Terkadang, kebahagiaan
-            bisa sesederhana membuka kemasan cookies favorit dan menikmati satu
-            gigitan yang begitu nikmat. **Nyam.in — Freshly Baked, Made with
-            Love.** Satu gigitan kecil, sejuta kebahagiaan. Terima kasih telah
-            menjadi bagian dari perjalanan manis kami!
+            Berawal dari suka ngemil, Nyam.in hadir buat jadi mood booster di
+            setiap harimu! Berawal dari dapur sederhana di Medan, kami
+            menghadirkan camilan fresh dengan bahan pilihan dan dibuat sepenuh
+            hati. Buat kami, cookies bukan cuma sekadar camilan, tapi juga
+            little happiness yang bisa bikin harimu lebih sweet. Dengan rasa
+            yang bikin nagih dan kualitas terbaik, Nyam.in siap nemenin setiap
+            mood dan momen spesialmu. Karena good days deserve good cookies! 💗
+            Nyam.in — Freshly Baked, Made with Love.
           </p>
         </div>
       </section>
@@ -81,7 +61,7 @@ function Home({ onAdd, page, setPage, cartCount }) {
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
             href={`https://wa.me/${NOMOR_WA}`}
-            className="bg-[#6b4226] text-white px-5 py-2 rounded-full hover:bg-[#553318] transition"
+            className="border border-[#6b4226] text-[#6b4226] px-5 py-2 rounded-full hover:bg-[#553318] transition"
           >
             💬 WhatsApp
           </a>
@@ -95,11 +75,12 @@ function Home({ onAdd, page, setPage, cartCount }) {
           </a>
         </div>
         <p className="text-sm text-[#8a6a4f] mt-4">
-          📍 Jl. Contoh No. 123, Medan
+          Jl. Mongonsidi Baru 11, Anggrung, Kec. Medan Polonia, Kota Medan,
+          Sumatera Utara 20222
         </p>
       </section>
 
-      <Footer text="© 2026 Nyam.in — Dibuat dengan ❤️ di Medan" />
+      <Footer text="© 2026 Nyam.in — Berdiri sejak aku bertemu dia" />
 
       {/* Modal Detail Produk */}
       {detail && (

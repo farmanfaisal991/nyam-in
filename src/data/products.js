@@ -4,7 +4,7 @@ export const products = [
     nama: "Classic Chocolate Cookies",
     deskripsi:
       "Gigitan pertama langsung jatuh cinta! Perpaduan cookies lembut dengan lelehan cokelat yang melimpah, siap menemani hari-harimu jadi lebih manis.",
-    harga: 15000,
+    harga: 7000,
     gambar: "/original-aulia.jpeg",
   },
   {
@@ -12,7 +12,7 @@ export const products = [
     nama: "Double Chocolate Cookies",
     deskripsi:
       "Pecinta cokelat wajib coba! Rasa cokelat yang kaya, tekstur chewy, dan potongan cokelat di setiap gigitan. Sekali coba, dijamin ingin lagi!",
-    harga: 17000,
+    harga: 8000,
     gambar: "/double-choco.jpeg",
   },
   {
@@ -20,7 +20,7 @@ export const products = [
     nama: "Red Velvet Cookies",
     deskripsi:
       "Cantik tampilannya, istimewa rasanya! Red velvet lembut dengan perpaduan white chocolate yang manis dan creamy. Cocok untuk menemani waktu santaimu.",
-    harga: 25000,
+    harga: 10000,
     gambar: "/redvelvet.jpeg",
   },
   {
@@ -28,7 +28,7 @@ export const products = [
     nama: "Matcha Cookies",
     deskripsi:
       "Saatnya manjakan diri dengan rasa matcha yang khas! Aroma teh hijau yang menggoda berpadu dengan manisnya white chocolate dalam satu cookies yang istimewa.",
-    harga: 28000,
+    harga: 10000,
     gambar: "/matcha.jpeg",
   },
    {
@@ -60,7 +60,7 @@ export const products = [
     nama: "Fudgy Brownies mini",
     deskripsi:
       "Saatnya manjakan diri dengan rasa matcha yang khas! Aroma teh hijau yang menggoda berpadu dengan manisnya white chocolate dalam satu cookies yang istimewa.",
-    harga: 28000,
+    harga: 5000,
     gambar: "/fudgy-brownies.jpeg",
   },
 ];
